@@ -1,0 +1,9 @@
+rm -rf Testrepo
+git clone git@github.com:gauravgitdir/Testrepo.git && cd $(basename $_ .git)
+echo "Hello Dosto I DID IT" >> scriptruncommandfile
+echo "Second line" >> scriptruncommandfile
+sed -i '/Dosto/c\Jai Shri Ram JAI SHRI RAM' scriptruncommandfile
+
+
+ 
+ 
